@@ -1,0 +1,223 @@
+/* header section//nev-section */
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: left, right bottom;
+    background-color: #fff8f3;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    padding:50px 150px;
+    align-items: center;
+}
+nav h1{
+    font-size: 65px;
+    font-weight: 600;
+    color: black;
+}
+span{
+    color:orange
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+nav ul li{
+    padding: 15px;
+    color:black;
+}
+nav li button{
+    padding: 15px 25px;
+    font-size: 25px;
+    background: orange;
+    border: 0;
+    border-radius:10px;
+}
+.own{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.own .write{
+    text-align: left;
+    margin: 130px;
+}
+.write h3{
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.write h1{
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom:25px ;
+}
+.write p{
+    margin-bottom: 35px;
+}
+.btn{
+    padding: 20px 30px;
+    color: white;
+    background-color: orange;
+    border: 0;
+    border-radius: 10px;
+    margin-right:20px;
+    font-size: 20px;
+}
+.btn1{
+    padding: 20px 30px;
+    color: orange;
+    background-color:white;
+    border: 1px solid orange;
+    border-radius: 10px;
+    font-size: 20px;
+}
+/* about me section */
+.about{
+    margin: 130px;
+    background: #fff8f3;
+    text-align: center;
+    padding: 60px;
+}
+.about .info h1{
+    font-size: 35px;
+    padding-top: 45px
+}
+.info p{
+    padding-top: 50px;
+}
+.contain{
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+    justify-content: space-around;
+}
+.contain h3{
+    margin-bottom: 15px;
+}
+/* what i do section */
+.what-i-do{
+    margin: 130px;
+    padding: 25px;
+}
+.whatido1{
+    margin: 30px;
+    text-align: center;
+    padding: 30px;
+}
+.whatido1 h1{
+    padding-bottom: 45px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.whatido1 p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.whatido-sub{
+    display: flex;
+    gap: 20px;
+    text-align: left;
+}
+.whatido-sub .sub{
+    box-shadow: 10px 10px 15px 02px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+}
+.whatido-sub .sub a img{
+    padding-bottom: 20px;
+}
+.whatido-sub .sub h1{
+    padding-bottom: 25px;
+}
+.whatido-sub .sub p{
+    text-align: justify;
+}
+/* resume section */
+.resume{
+    padding: 100px;
+}
+.resume1{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.resume> h1{
+    text-align: center;
+    font-size: 45px;
+    padding-bottom: 35px;
+}
+.resume2 > h1{
+    font-size: 28px;
+    font-weight:700;
+    padding-bottom: 20px;
+}
+.container > h2{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.container >h4{
+    font-size: 23px;
+    font-weight: 480;
+    padding-bottom: 15px;
+}
+.container > p{
+    font-size: 18px;
+    font-weight: 300;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+.btn3, input[type="submit"]{
+    padding: 20px 50px;
+    color: white;
+    background-color: orange;
+    border: 0;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.resumebtn{
+    text-align: center;
+    padding-top: 25px;
+}
+/* section footer */
+.foter{
+    background-color: #fff8f3;
+    display: flex;
+    gap: 100px;
+    padding: 100px 200px;
+    text-align: left;
+}
+.foter1 > h1{
+    font-size: 35px;
+    font-weight: 600;
+    padding-bottom: 35px;
+}
+.foter1 > p{
+    font-size: 17px;
+    font-weight: 400;
+}
+.foter1 img{
+    padding: 10px;
+    margin-top: 5px;
+}
+.foter2 > h1{
+    font-size: 35px;
+    font-weight: 600;
+    padding-bottom: 35px;
+}
+input[type="text"], input[type="email"], textarea{
+    border: 0;
+    margin-bottom: 24px;
+    width: 100%;
+    padding: 18px 30px;
+}
